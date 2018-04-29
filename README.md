@@ -1,2 +1,2 @@
 # user-interface
-A standard file and configuration sharing module for Language and other UI settings
+A package used by any frontend module for sharing of styling and themes.
