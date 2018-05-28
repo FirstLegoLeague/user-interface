@@ -54,5 +54,8 @@
     "presets": [
       "es2015"
     ]
+  },
+  "dependencies": {
+    "hamburgers": "^0.9.3"
   }
 }
