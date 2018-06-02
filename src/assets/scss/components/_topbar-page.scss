@@ -1,8 +1,13 @@
 .top-bar {
   height: 3.5rem;
+
+  .button, .button-group {
+  	margin: 0;
+  }
+
 }
 
 .top-bar +.top-bar-page {
 	overflow-y: auto;
-	height: calc(100vh - 3.5rem);
+	height: calc(100% - 3.5rem);
 }
