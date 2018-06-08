@@ -8,11 +8,9 @@ import { Touch } from 'foundation-sites/js/foundation.util.touch';
 
 import { Triggers } from 'foundation-sites/js/foundation.util.triggers';
 /**
- * Slider module.
+ * Hamburger module.
  * @module foundation.hamburger
- * @requires foundation.util.motion
  * @requires foundation.util.triggers
- * @requires foundation.util.keyboard
  * @requires foundation.util.touch
  */
 

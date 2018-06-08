@@ -32,6 +32,7 @@ import { Toggler } from 'foundation-sites/js/foundation.toggler';
 import { Tooltip } from 'foundation-sites/js/foundation.tooltip';
 import { ResponsiveAccordionTabs } from 'foundation-sites/js/foundation.responsiveAccordionTabs';
 import { Hamburger } from './plugins/foundation.hamburger';
+import { Notification } from './plugins/foundation.notification';
 
 Foundation.addToJquery($);
 
@@ -101,5 +102,7 @@ Foundation.plugin(Tooltip, 'Tooltip');
 Foundation.plugin(ResponsiveAccordionTabs, 'ResponsiveAccordionTabs');
 
 Foundation.plugin(Hamburger, 'Hamburger');
+
+Foundation.plugin(Notification, 'Notification');
 
 module.exports = Foundation;

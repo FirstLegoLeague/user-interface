@@ -11,3 +11,8 @@
 	overflow-y: auto;
 	height: calc(100% - 3.5rem);
 }
+
+.secondary-top-bar {
+    background: white;
+    border-bottom: $light-gray 2px solid;
+}
