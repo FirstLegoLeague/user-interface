@@ -12,7 +12,7 @@
 	height: calc(100% - 3.5rem);
 }
 
-.secondary-top-bar {
-    background: white;
+.top-bar.secondary {
+    background: white !important;
     border-bottom: $light-gray 2px solid;
 }
