@@ -7,8 +7,10 @@
 @import 'hamburgers';
 
 @import 'components/scrollbar';
-@import 'components/topbar-extension';
 @import 'components/notifications';
+
+@import 'components/topbar-extension';
+@import 'components/button-extension';
 
 @include foundation-global-styles;
 // @include foundation-grid;
