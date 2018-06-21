@@ -5,8 +5,8 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FLL-System User Interface</title>
-    <link rel="stylesheet" href="{{root}}assets/css/app.css">
-    <link rel="icon" href="{{root}}assets/img/first-favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="../assets/css/app.css">
+    <link rel="icon" href="../assets/img/first-favicon.ico" type="image/x-icon"/>
   </head>
   <body>
 
@@ -67,12 +67,36 @@
           </div>
         </div>
         <div class="off-canvas-content" data-off-canvas-content>
-            {{> body}}
+            <div class="grid-container">
+              <div class="grid-x grid-margin-x">
+                <div class="large-12 cell">
+                  <h1>Welcome to The FLL UI package</h1>
+                  <h2 class="subheader">Based on Foundation UI</h2>
+                </div>
+              </div> 
+            
+              <div class="grid-x">
+                <div class="large-12 cell">
+                  <div class="callout">
+                    <h3>What is this place?</h3>
+                    <p>These pages include a basic list of guidelines and examples
+                    that you can use inyour module.</p>
+                    <p>You can see different topics in the menu on the left of the page</p>
+                    <p>If you can't find what you're looking for here, try looking in:</p>
+                    <ul>
+                      <li><a href="http://foundation.zurb.com/docs">Foundation Documentation</a></li>
+                      <li><a href="https://fontawesome.com/icons">fontawsome icons library</a></li>
+                      <li><a href="extend_foundation.html">Create Foundation UI extension and add to this library</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
       </div>
     </div>
 
 
-    <script src="{{root}}assets/js/app.js"></script>
+    <script src="../assets/js/app.js"></script>
   </body>
 </html>

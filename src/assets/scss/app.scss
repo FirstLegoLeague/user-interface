@@ -9,8 +9,9 @@
 @import 'components/scrollbar';
 @import 'components/notifications';
 
-@import 'components/topbar-extension';
-@import 'components/button-extension';
+@import 'extensions/body-extension';
+@import 'extensions/topbar-extension';
+@import 'extensions/button-extension';
 
 @include foundation-global-styles;
 // @include foundation-grid;

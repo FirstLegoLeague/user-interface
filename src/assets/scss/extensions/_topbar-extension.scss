@@ -15,6 +15,11 @@
 .top-bar +.top-bar-page {
 	overflow-y: auto;
 	height: calc(100% - 3.5rem);
+
+	> :only-child {
+		height: 100%;
+	}
+
 }
 
 .top-bar.secondary, .top-bar.secondary ul {
