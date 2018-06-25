@@ -17,6 +17,7 @@
 	height: calc(100% - 3.5rem);
 
 	> :only-child {
+		overflow-y: auto;
 		height: 100%;
 	}
 
