@@ -6,13 +6,15 @@
 @import 'fonts/fontawesome';
 @import 'hamburgers';
 
-@import 'components/scrollbar';
 @import 'components/notifications';
+@import 'components/scrollbar';
 
 @import 'extensions/body-extension';
-@import 'extensions/topbar-extension';
 @import 'extensions/button-extension';
+@import 'extensions/card-extension';
 @import 'extensions/code-extension';
+@import 'extensions/reveal-extension';
+@import 'extensions/topbar-extension';
 
 @include foundation-global-styles;
 // @include foundation-grid;
