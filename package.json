@@ -6,11 +6,12 @@
     "url": "https://github.com/zurb/foundation-zurb-template.git"
   },
   "author": "Idan Stark <idanstark42@gmail.com>",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "main": "gulpfile.babel.js",
   "scripts": {
     "start": "gulp",
-    "build": "gulp build --production"
+    "build": "gulp build --production",
+    "prepack": "yarn build"
   },
   "license": "MIT",
   "devDependencies": {
