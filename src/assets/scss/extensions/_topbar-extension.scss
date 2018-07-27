@@ -6,7 +6,7 @@
 		display: inline-block;
 	}
 
-	.menu > :not(il):not(:first-child) { // Force non-il to have a space between them
+	.menu > :not(li):not(:first-child) { // Force non-li to have a space between them
 		margin-left: 1em;
 	}
 
