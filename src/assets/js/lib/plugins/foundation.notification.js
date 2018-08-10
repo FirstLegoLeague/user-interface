@@ -40,7 +40,7 @@ class Notification extends Plugin {
    */
   _init() {
     this.$element = $(`<div class="${this.level} callout notification">
-      ${this.message}<a href="#" class="close">&times;</a>
+      ${this.message}<a class="close">&times;</a>
     </div>`);
     let notifications = $('#notifications');
     if(notifications.length === 0) {
