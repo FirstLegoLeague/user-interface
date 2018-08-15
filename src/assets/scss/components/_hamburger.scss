@@ -12,11 +12,14 @@
 	    border-radius: 2px;
 	}
 
-	.hamburger-inner::before {
-	    top: -6px;
+	&:not(.is-active) {
+		.hamburger-inner::before {
+		    top: -6px;
+		}
+
+		.hamburger-inner::after {
+		    bottom: -6px;
+		}	
 	}
 
-	.hamburger-inner::after {
-	    bottom: -6px;
-	}
 }
