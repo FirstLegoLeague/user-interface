@@ -11,9 +11,9 @@
       "packaged": "current\\",
       "uncompressed": "current\\components\\",
       "compressed": "current\\components\\",
-      "themes": "dist/themes/"
+      "themes": "current/themes/"
     },
-    "clean": "dist/"
+    "clean": "current/"
   },
   "permission": false,
   "autoInstall": false,
