@@ -26,10 +26,20 @@ module.exports = function(callback) {
 
   console.info('Building assets');
 
-  // copy assets
-  return gulp.src(source.themes + '/**/assets/**/*.*')
-    .pipe(gulpif(config.hasPermission, chmod(config.permission)))
-    .pipe(gulp.dest(output.themes))
-  ;
+  // copy themes assets
+  const subTasks = []
 
+  if (source.themes && output.themes) {
+    subTasks.push(gulp.src(source.themes + '/**/assets/**/*.*')
+      .pipe(gulpif(config.hasPermission, chmod(config.permission)))
+      .pipe(gulp.dest(output.themes)))
+  }
+
+  if (source.site && output.site) {
+    subTasks.push(gulp.src(source.site + '/**/assets/**/*.*')
+      .pipe(gulpif(config.hasPermission, chmod(config.permission)))
+      .pipe(gulp.dest(output.site)))
+  }
+
+  return Promise.all(subTasks)
 };

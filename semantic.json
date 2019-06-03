@@ -11,6 +11,7 @@
       "packaged": "current\\",
       "uncompressed": "current\\components\\",
       "compressed": "current\\components\\",
+      "site": "current\\",
       "themes": "current/themes/"
     },
     "clean": "current/"

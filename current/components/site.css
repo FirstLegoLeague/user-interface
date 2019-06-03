@@ -192,3 +192,9 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
          Site Overrides
 *******************************/
 
+.fll.image-background {
+  background-image: url('image/background_image.jpg');
+}
+.fll.tile-background {
+  background-image: url('image/background_tile.jpg');
+}
