@@ -55,7 +55,10 @@ module.exports = function(callback) {
   }
 
   // copy source javascript
-  gulp.src(source.definitions + '/**/' + globs.components + '.js')
+  gulp.src([
+      'node_modules/jquery/dist/jquery.js',
+      source.definitions + '/**/' + globs.components + '.js'
+    ])
     .pipe(plumber())
     .pipe(flatten())
     .pipe(replace(comments.license.in, comments.license.out))

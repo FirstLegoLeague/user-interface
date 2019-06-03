@@ -22,6 +22,7 @@
     "prepack": "yarn build"
   },
   "devDependencies": {
+    "jquery": "^3.4.1",
     "semantic-ui": "^2.4.2"
   }
 }

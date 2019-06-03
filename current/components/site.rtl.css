@@ -193,8 +193,8 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 *******************************/
 
 .fll.image-background {
-  background-image: url('image/background_image.jpg');
+  background-image: url('assets/images/background_image.jpg');
 }
 .fll.tile-background {
-  background-image: url('image/background_tile.jpg');
+  background-image: url('assets/images/background_tile.jpg');
 }

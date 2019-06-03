@@ -4,10 +4,10 @@
 
 .fll {
 	&.image-background {
-		background-image: url('image/background_image.jpg')
+		background-image: url('assets/images/background_image.jpg')
 	}
 
 	&.tile-background {
-		background-image: url('image/background_tile.jpg')
+		background-image: url('assets/images/background_tile.jpg')
 	}
 }
