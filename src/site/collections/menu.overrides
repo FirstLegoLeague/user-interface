@@ -1,3 +1,13 @@
 /*******************************
          Site Overrides
 *******************************/
+
+.ui.page.menu {
+	height: 3rem;
+	border-radius: 0;
+}
+
+.ui.page.menu +* {
+	height: calc(100% - 3rem);
+    overflow-y: auto;
+}
