@@ -198,3 +198,6 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 .fll.tile-background {
   background-image: url('assets/images/background_tile.jpg');
 }
+:not(:hover) > .hover.text {
+  display: none;
+}

@@ -11,3 +11,7 @@
 		background-image: url('assets/images/background_tile.jpg')
 	}
 }
+
+:not(:hover) > .hover.text {
+	display: none; 
+}

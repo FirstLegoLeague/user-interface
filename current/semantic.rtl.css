@@ -755,6 +755,10 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 .fll.tile-background {
   background-image: url('assets/images/background_tile.jpg');
 }
+
+:not(:hover) > .hover.text {
+  display: none;
+}
 /*!
  * # Semantic UI 2.4.2 - Button
  * http://github.com/semantic-org/semantic-ui/
@@ -13800,6 +13804,38 @@ i.icon.youtube.square {
 /*******************************
          Site Overrides
 *******************************/
+
+/* Primary */
+
+i.primary.icon {
+  color: #2185D0 !important;
+}
+
+i.inverted.primary.icon {
+  color: #54C8FF !important;
+}
+
+i.inverted.bordered.primary.icon,
+i.inverted.circular.primary.icon {
+  background-color: #2185D0 !important;
+  color: #FFFFFF !important;
+}
+
+/* Secondary */
+
+i.secondary.icon {
+  color: #1B1C1D !important;
+}
+
+i.inverted.secondary.icon {
+  color: #545454 !important;
+}
+
+i.inverted.bordered.secondary.icon,
+i.inverted.circular.secondary.icon {
+  background-color: #1B1C1D !important;
+  color: #FFFFFF !important;
+}
 /*!
  * # Semantic UI 2.4.2 - Image
  * http://github.com/semantic-org/semantic-ui/
@@ -25914,6 +25950,21 @@ Floated Menu / Item
 /*******************************
          Site Overrides
 *******************************/
+
+.ui.page.menu {
+  height: 3rem;
+  border-radius: 0;
+  border-top-width: 0 !important;
+}
+
+.ui.page.menu + * {
+  height: calc(100% - 3rem);
+  overflow-y: auto;
+}
+
+.ui.menu .item.icon > i.icon + .hover.text {
+  margin-right: 0.35714286em;
+}
 /*!
  * # Semantic UI 2.4.2 - Message
  * http://github.com/semantic-org/semantic-ui/
