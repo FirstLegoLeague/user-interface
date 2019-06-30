@@ -13,6 +13,7 @@
              Page
 *******************************/
 
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin');
 html,
 body {
   height: 100%;
@@ -192,11 +193,11 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
          Site Overrides
 *******************************/
 
-.fll.image-background {
-  background-image: url('assets/images/background_image.jpg');
-}
+.fll.image-background,
 .fll.tile-background {
-  background-image: url('assets/images/background_tile.jpg');
+  background-image: url('assets/images/first_rise_horizontal.png');
+  background-position: center;
+  background-size: 100%;
 }
 :not(:hover) > .hover.text {
   display: none;

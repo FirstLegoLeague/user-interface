@@ -3836,3 +3836,6 @@
          Site Overrides
 *******************************/
 
+.ui.icon.button > i.icon + .hover.text {
+  margin-right: 0.35714286em;
+}

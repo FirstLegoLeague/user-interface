@@ -880,3 +880,11 @@
 .ui.segment.transparent {
   background: rgba(255, 255, 255, 0.5);
 }
+.ui.success.segment {
+  background-color: #E5F9E7;
+  border-color: #21BA45;
+}
+.ui.error.segment {
+  background-color: #FFE8E6;
+  border-color: #DB2828;
+}

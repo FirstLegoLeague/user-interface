@@ -1,3 +1,5 @@
 /*******************************
     User Variable Overrides
 *******************************/
+
+@rightRibbonOffset: calc(100% + @ribbonMargin + @relative2px);

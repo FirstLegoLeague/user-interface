@@ -3,12 +3,10 @@
 *******************************/
 
 .fll {
-	&.image-background {
-		background-image: url('assets/images/background_image.jpg')
-	}
-
-	&.tile-background {
-		background-image: url('assets/images/background_tile.jpg')
+	&.image-background, &.tile-background {
+		background-image: url('assets/images/first_rise_horizontal.png');
+		background-position: center;
+    	background-size: 100%;
 	}
 }
 

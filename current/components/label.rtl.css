@@ -322,7 +322,7 @@ a.ui.label {
   padding-left: 1.2em;
 }
 .ui[class*="right ribbon"].label {
-  right: calc(100% + 1rem + 1.2em);
+  right: calc(100% + 1rem + 0.14285714em);
   padding-right: 1.2em;
   padding-left: calc(1rem + 1.2em);
 }
@@ -1311,3 +1311,6 @@ a.ui.basic.label:hover {
          Site Overrides
 *******************************/
 
+.ui[class*="right ribbon"].label {
+  position: absolute;
+}

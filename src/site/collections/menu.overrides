@@ -9,10 +9,15 @@
 }
 
 .ui.page.menu +* {
+	display: block;
 	height: calc(100% - 3rem);
     overflow-y: auto;
 }
 
 .ui.menu .item.icon > i.icon +.hover.text {
 	margin-left: @relative5px;
+}
+
+.ui.menu:not(.vertical) .dropdown.item {
+	display: block;
 }

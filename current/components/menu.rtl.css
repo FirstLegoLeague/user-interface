@@ -2056,9 +2056,13 @@ Floated Menu / Item
   border-top-width: 0 !important;
 }
 .ui.page.menu + * {
+  display: block;
   height: calc(100% - 3rem);
   overflow-y: auto;
 }
 .ui.menu .item.icon > i.icon + .hover.text {
   margin-right: 0.35714286em;
+}
+.ui.menu:not(.vertical) .dropdown.item {
+  display: block;
 }

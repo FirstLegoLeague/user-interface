@@ -8,6 +8,7 @@
  * http://opensource.org/licenses/MIT
  *
  */
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin');
 /*!
  * # Semantic UI 2.4.2 - Reset
  * http://github.com/semantic-org/semantic-ui/
@@ -748,12 +749,11 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
          Site Overrides
 *******************************/
 
-.fll.image-background {
-  background-image: url('assets/images/background_image.jpg');
-}
-
+.fll.image-background,
 .fll.tile-background {
-  background-image: url('assets/images/background_tile.jpg');
+  background-image: url('assets/images/first_rise_horizontal.png');
+  background-position: center;
+  background-size: 100%;
 }
 
 :not(:hover) > .hover.text {
@@ -5120,6 +5120,10 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 /*******************************
          Site Overrides
 *******************************/
+
+.ui.icon.button > i.icon + .hover.text {
+  margin-right: 0.35714286em;
+}
 /*!
  * # Semantic UI 2.4.2 - Container
  * http://github.com/semantic-org/semantic-ui/
@@ -14730,6 +14734,16 @@ img.ui.bordered.image {
 /*******************************
          Site Overrides
 *******************************/
+
+.ui.action.input .ui.dropdown:first-child {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.ui.action.input .ui.dropdown:last-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
 /*!
  * # Semantic UI 2.4.2 - Label
  * http://github.com/semantic-org/semantic-ui/
@@ -15084,7 +15098,7 @@ a.ui.label {
 }
 
 .ui[class*="right ribbon"].label {
-  right: calc(100% + 1rem + 1.2em);
+  right: calc(100% + 1rem + 0.14285714em);
   padding-right: 1.2em;
   padding-left: calc(1rem + 1.2em);
 }
@@ -16161,6 +16175,10 @@ a.ui.basic.label:hover {
 /*******************************
          Site Overrides
 *******************************/
+
+.ui[class*="right ribbon"].label {
+  position: absolute;
+}
 /*!
  * # Semantic UI 2.4.2 - List
  * http://github.com/semantic-org/semantic-ui/
@@ -19345,6 +19363,16 @@ ol.ui.horizontal.list li:before,
 
 .ui.segment.transparent {
   background: rgba(255, 255, 255, 0.5);
+}
+
+.ui.success.segment {
+  background-color: #E5F9E7;
+  border-color: #21BA45;
+}
+
+.ui.error.segment {
+  background-color: #FFE8E6;
+  border-color: #DB2828;
 }
 /*!
  * # Semantic UI 2.4.2 - Step
@@ -25958,12 +25986,17 @@ Floated Menu / Item
 }
 
 .ui.page.menu + * {
+  display: block;
   height: calc(100% - 3rem);
   overflow-y: auto;
 }
 
 .ui.menu .item.icon > i.icon + .hover.text {
   margin-right: 0.35714286em;
+}
+
+.ui.menu:not(.vertical) .dropdown.item {
+  display: block;
 }
 /*!
  * # Semantic UI 2.4.2 - Message
