@@ -57,6 +57,7 @@ module.exports = function(callback) {
   // copy source javascript
   gulp.src([
       'node_modules/jquery/dist/jquery.js',
+      'node_modules/toastr/toastr.js',
       source.definitions + '/**/' + globs.components + '.js'
     ])
     .pipe(plumber())
