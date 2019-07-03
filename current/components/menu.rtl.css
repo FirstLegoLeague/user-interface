@@ -2060,6 +2060,19 @@ Floated Menu / Item
   height: calc(100% - 3rem);
   overflow-y: auto;
 }
+.ui.page.sub.menu {
+  -webkit-box-shadow: 0px 3px 2.5px 0px rgba(32, 33, 36, 0.65);
+          box-shadow: 0px 3px 2.5px 0px rgba(32, 33, 36, 0.65);
+  z-index: 2;
+  height: 5rem;
+  padding: 0;
+  background: inherit;
+  border: none;
+  margin: 0;
+}
+.ui.page.sub.menu + * {
+  height: calc(100% - 5rem);
+}
 .ui.menu .item.icon > i.icon + .hover.text {
   margin-right: 0.35714286em;
 }
