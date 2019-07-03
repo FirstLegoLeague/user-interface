@@ -1,0 +1,7 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+.ui.icon.button > i.icon +.hover.text {
+	margin-left: @relative5px;
+}

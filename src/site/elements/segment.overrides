@@ -1,0 +1,17 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+.ui.segment.transparent {
+	background: rgba(255, 255, 255, 0.5)
+}
+
+.ui.success.segment {
+	background-color: @greenBackground;
+	border-color: @green;
+}
+
+.ui.error.segment {
+	background-color: @redBackground;
+	border-color: @red;
+}

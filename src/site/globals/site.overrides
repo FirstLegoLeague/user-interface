@@ -1,0 +1,15 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+.fll {
+	&.image-background, &.tile-background {
+		background-image: url('assets/images/first_rise_horizontal.png');
+		background-position: center;
+    	background-size: 100%;
+	}
+}
+
+:not(:hover) > .hover.text {
+	display: none; 
+}
