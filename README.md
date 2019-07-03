@@ -1,8 +1,8 @@
-[![npm](https://img.shields.io/npm/v/@first-lego-league/ms-auth.svg)](https://www.npmjs.com/package/@first-lego-league/ms-auth)
-[![David Dependency Status](https://david-dm.org/FirstLegoLeague/ms-auth.svg)](https://david-dm.org/FirstLegoLeague/ms-auth)
-[![David Dev Dependency Status](https://david-dm.org/FirstLegoLeague/ms-auth/dev-status.svg)](https://david-dm.org/FirstLegoLeague/ms-auth#info=devDependencies)
-[![David Peer Dependencies Status](https://david-dm.org/FirstLegoLeague/ms-auth/peer-status.svg)](https://david-dm.org/FirstLegoLeague/ms-auth?type=peer)
-[![GitHub](https://img.shields.io/github/license/FirstLegoLeague/ms-auth.svg)](https://github.com/FirstLegoLeague/ms-auth/blob/master/LICENSE)
+[![npm](https://img.shields.io/npm/v/@first-lego-league/user-interface.svg)](https://www.npmjs.com/package/@first-lego-league/user-interface)
+[![David Dependency Status](https://david-dm.org/FirstLegoLeague/user-interface.svg)](https://david-dm.org/FirstLegoLeague/user-interface)
+[![David Dev Dependency Status](https://david-dm.org/FirstLegoLeague/user-interface/dev-status.svg)](https://david-dm.org/FirstLegoLeague/user-interface#info=devDependencies)
+[![David Peer Dependencies Status](https://david-dm.org/FirstLegoLeague/user-interface/peer-status.svg)](https://david-dm.org/FirstLegoLeague/user-interface?type=peer)
+[![GitHub](https://img.shields.io/github/license/FirstLegoLeague/user-interface.svg)](https://github.com/FirstLegoLeague/user-interface/blob/master/LICENSE)
 
 ## FIRST LEGO League User Interface
 User Interface unified infastructure for the _FIRST_ LEGO League Tournament Management System. Yearly updated.
