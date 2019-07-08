@@ -5,8 +5,10 @@
 .fll {
 	&.image-background, &.tile-background {
 		background-image: url('assets/images/first_rise_horizontal.png');
-		background-position: center;
-    	background-size: 100%;
+		    background-position: bottom center;
+			background-size: 100%;
+			background-repeat: no-repeat;
+			background-color: #a0d9db;
 	}
 }
 
