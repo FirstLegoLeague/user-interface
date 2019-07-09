@@ -127,6 +127,10 @@ a:hover {
   background-color: #CCE2FF;
   color: rgba(0, 0, 0, 0.87);
 }
+::-moz-selection {
+  background-color: #CCE2FF;
+  color: rgba(0, 0, 0, 0.87);
+}
 ::selection {
   background-color: #CCE2FF;
   color: rgba(0, 0, 0, 0.87);
@@ -135,6 +139,11 @@ a:hover {
 /* Form */
 textarea::-webkit-selection,
 input::-webkit-selection {
+  background-color: rgba(100, 100, 100, 0.4);
+  color: rgba(0, 0, 0, 0.87);
+}
+textarea::-moz-selection,
+input::-moz-selection {
   background-color: rgba(100, 100, 100, 0.4);
   color: rgba(0, 0, 0, 0.87);
 }
@@ -196,8 +205,10 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 .fll.image-background,
 .fll.tile-background {
   background-image: url('assets/images/first_rise_horizontal.png');
-  background-position: center;
+  background-position: bottom center;
   background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #a0d9db;
 }
 :not(:hover) > .hover.text {
   display: none;
