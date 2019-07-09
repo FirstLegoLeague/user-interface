@@ -16,11 +16,18 @@
     "build": "gulp build --production",
     "prepack": "yarn build"
   },
+  "browsersList": [
+    "last 2 versions",
+    "> 1%",
+    "opera 12.1",
+    "bb 10",
+    "android 4"
+  ],
   "devDependencies": {
     "better-console": "^1.0.1",
     "del": "^5.0.0",
     "extend": "^3.0.2",
-    "gulp": "^4.0.2",
+    "gulp": "3.x",
     "gulp-autoprefixer": "^6.1.0",
     "gulp-chmod": "^3.0.0",
     "gulp-clean-css": "^4.2.0",

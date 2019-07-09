@@ -110,7 +110,6 @@ button.toast-close-button {
   /*overrides*/
 }
 #toast-container * {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 #toast-container > div {
@@ -123,7 +122,6 @@ button.toast-close-button {
   border-radius: 3px 3px 3px 3px;
   background-position: 15px center;
   background-repeat: no-repeat;
-  -webkit-box-shadow: 0 0 12px #999999;
   box-shadow: 0 0 12px #999999;
   color: #FFFFFF;
   opacity: 0.8;
@@ -136,7 +134,6 @@ button.toast-close-button {
   background-position: right 15px center;
 }
 #toast-container > div:hover {
-  -webkit-box-shadow: 0 0 12px #000000;
   box-shadow: 0 0 12px #000000;
   opacity: 1;
   -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);

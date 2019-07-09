@@ -206,8 +206,7 @@
 .ui.threaded.comments .comment .comments {
   margin: -1.5em 1.25em -1em 0;
   padding: 3em 2.25em 2em 0em;
-  -webkit-box-shadow: 1px 0px 0px rgba(34, 36, 38, 0.15);
-          box-shadow: 1px 0px 0px rgba(34, 36, 38, 0.15);
+  box-shadow: 1px 0px 0px rgba(34, 36, 38, 0.15);
 }
 
 /*--------------------
