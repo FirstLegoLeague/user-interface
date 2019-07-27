@@ -4803,26 +4803,26 @@ i.icon.youtube.square {
 
 /* Primary */
 i.primary.icon {
-  color: #2185D0 !important;
+  color: #1E5AA8 !important;
 }
 i.inverted.primary.icon {
-  color: #54C8FF !important;
+  color: #ffffff !important;
 }
 i.inverted.bordered.primary.icon,
 i.inverted.circular.primary.icon {
-  background-color: #2185D0 !important;
+  background-color: #1E5AA8 !important;
   color: #FFFFFF !important;
 }
 
 /* Secondary */
 i.secondary.icon {
-  color: #1B1C1D !important;
+  color: #AAE1F0 !important;
 }
 i.inverted.secondary.icon {
-  color: #545454 !important;
+  color: #ffffff !important;
 }
 i.inverted.bordered.secondary.icon,
 i.inverted.circular.secondary.icon {
-  background-color: #1B1C1D !important;
+  background-color: #AAE1F0 !important;
   color: #FFFFFF !important;
 }

@@ -15,6 +15,10 @@ Adding the class `fll tile-background` to the `<body>` of the page, it will have
 `ui page menu` always has a height of `3rem` and the next element after it will catch the rest of the page (`100vh-3rem`), and the scrolling will be on it.
 `ui page sub menu` does the same thing, but is `5rem` high and has the same background as the page, rather then the white background of menus.
 
+### Iconed page menu
+`ui iconed page menu` will have the logo of the challenge on its leftmost side.
+`ui splashing iconed page menu` will create a splash screen that will show the challenge logo in the center of the page, and then will animate it to the corner, where it will rest like in a regular `iconed page menu`.
+
 ## Action Input Dropdown
 A `dropdown` can be now used as an `<input>` tag of an `action input`.
 

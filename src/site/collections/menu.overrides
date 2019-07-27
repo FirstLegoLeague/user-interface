@@ -18,7 +18,7 @@
   width: 3rem;
   display: block;
   content: '';
-  background-image: url(challenge_logo.png);
+  background-image: url('assets/images/challenge_logo.png');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;

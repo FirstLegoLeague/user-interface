@@ -2003,8 +2003,94 @@ Floated Menu / Item
 }
 .ui.page.menu + * {
   display: block;
-  height: calc(100% - 3rem);
+  height: calc(100vh - 3rem);
   overflow-y: auto;
+}
+.ui.iconed.page.menu::before {
+  width: 3rem;
+  display: block;
+  content: '';
+  background-image: url('assets/images/challenge_logo.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@-webkit-keyframes splashing-menu {
+  0% {
+    height: 100%;
+  }
+  20% {
+    height: 100%;
+  }
+}
+@keyframes splashing-menu {
+  0% {
+    height: 100%;
+  }
+  20% {
+    height: 100%;
+  }
+}
+@-webkit-keyframes splashing-menu-before {
+  0% {
+    width: 100%;
+  }
+  40% {
+    width: 100%;
+  }
+}
+@keyframes splashing-menu-before {
+  0% {
+    width: 100%;
+  }
+  40% {
+    width: 100%;
+  }
+}
+@-webkit-keyframes splashing-content {
+  0% {
+    width: 0;
+    height: 0;
+  }
+  60% {
+    width: 0;
+    height: 0;
+  }
+  61% {
+    opacity: 0;
+  }
+}
+@keyframes splashing-content {
+  0% {
+    width: 0;
+    height: 0;
+  }
+  60% {
+    width: 0;
+    height: 0;
+  }
+  61% {
+    opacity: 0;
+  }
+}
+.ui.iconed.splashing.page.menu {
+  -webkit-animation-name: splashing-menu;
+          animation-name: splashing-menu;
+  -webkit-animation-duration: 2.25s;
+          animation-duration: 2.25s;
+}
+.ui.iconed.splashing.page.menu::before {
+  -webkit-animation-name: splashing-menu-before;
+          animation-name: splashing-menu-before;
+  -webkit-animation-duration: 2.25s;
+          animation-duration: 2.25s;
+}
+.ui.iconed.splashing.page.menu > *,
+.ui.iconed.splashing.page.menu + * {
+  -webkit-animation-name: splashing-content;
+          animation-name: splashing-content;
+  -webkit-animation-duration: 2.25s;
+          animation-duration: 2.25s;
 }
 .ui.page.sub.menu {
   box-shadow: 0px 3px 2.5px 0px rgba(32, 33, 36, 0.65);
