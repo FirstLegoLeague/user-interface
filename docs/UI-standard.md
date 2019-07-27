@@ -3,6 +3,7 @@ Please follow these standards when using this package, to use unified style for 
 
 ## Page Nvaigation
 - Navigation between pages should be using a `page menu`. The `page menu` should not containg any non-navigation links in it's left side. There should be only one navigation `page menu`.
+- For main pages, or in SPAs for any page, the `page menu` should be `splashing iconed page menu`. For all other pages it should be `iconed page menu`.
 -  The links in the `page menu` should be `link item`s with icon and a text. Icons should be replaced with a loader `ui loading nothced circle` while moving to another page if the transition takes more then 1 second.
 - The right side of the `page menu` should contain the `logout` button, which should be:
 ```html
