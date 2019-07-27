@@ -10,8 +10,54 @@
 
 .ui.page.menu +* {
 	display: block;
-	height: calc(100% - 3rem);
-    overflow-y: auto;
+	height: calc(100vh - 3rem);
+  overflow-y: auto;
+}
+
+.ui.iconed.page.menu::before {
+  width: 3rem;
+  display: block;
+  content: '';
+  background-image: url(challenge_logo.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@keyframes splashing-menu {
+  0% { height: 100%; }
+  20% { height: 100%; }
+  40% { }
+  100% { }
+}
+
+@keyframes splashing-menu-before {
+  0% { width: 100%; }
+  40% { width: 100%; }
+  60% { }
+  100% { }
+}
+
+@keyframes splashing-content {
+  0% { width: 0; height: 0; }
+  60% { width: 0; height: 0; }
+  61% { opacity: 0; }
+  100% { }
+}
+
+.ui.iconed.splashing.page.menu {
+  animation-name: splashing-menu;
+  animation-duration: 2.25s;
+}
+
+.ui.iconed.splashing.page.menu::before {
+  animation-name: splashing-menu-before;
+  animation-duration: 2.25s;
+}
+
+.ui.iconed.splashing.page.menu > *, .ui.iconed.splashing.page.menu +* {
+  animation-name: splashing-content;
+  animation-duration: 2.25s;
 }
 
 .ui.page.sub.menu {
