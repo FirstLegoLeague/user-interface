@@ -8,7 +8,6 @@
  * http://opensource.org/licenses/MIT
  *
  */
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin');
 /*!
  * # Semantic UI 2.4.2 - Reset
  * http://github.com/semantic-org/semantic-ui/
@@ -4585,7 +4584,7 @@ button.toast-close-button {
 
 .ui.primary.buttons .button,
 .ui.primary.button {
-  background-color: #2185D0;
+  background-color: #1E5AA8;
   color: #FFFFFF;
   text-shadow: none;
   background-image: none;
@@ -4597,21 +4596,21 @@ button.toast-close-button {
 
 .ui.primary.buttons .button:hover,
 .ui.primary.button:hover {
-  background-color: #1678c2;
+  background-color: #144e98;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.primary.buttons .button:focus,
 .ui.primary.button:focus {
-  background-color: #0d71bb;
+  background-color: #0d4690;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.primary.buttons .button:active,
 .ui.primary.button:active {
-  background-color: #1a69a4;
+  background-color: #16437d;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -4620,7 +4619,7 @@ button.toast-close-button {
 .ui.primary.buttons .active.button:active,
 .ui.primary.active.button,
 .ui.primary.button .active.button:active {
-  background-color: #1279c6;
+  background-color: #114d9b;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -4629,35 +4628,35 @@ button.toast-close-button {
 
 .ui.basic.primary.buttons .button,
 .ui.basic.primary.button {
-  box-shadow: 0px 0px 0px 1px #2185D0 inset !important;
-  color: #2185D0 !important;
+  box-shadow: 0px 0px 0px 1px #1E5AA8 inset !important;
+  color: #1E5AA8 !important;
 }
 
 .ui.basic.primary.buttons .button:hover,
 .ui.basic.primary.button:hover {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #1678c2 inset !important;
-  color: #1678c2 !important;
+  box-shadow: 0px 0px 0px 1px #144e98 inset !important;
+  color: #144e98 !important;
 }
 
 .ui.basic.primary.buttons .button:focus,
 .ui.basic.primary.button:focus {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #0d71bb inset !important;
-  color: #1678c2 !important;
+  box-shadow: 0px 0px 0px 1px #0d4690 inset !important;
+  color: #144e98 !important;
 }
 
 .ui.basic.primary.buttons .active.button,
 .ui.basic.primary.active.button {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #1279c6 inset !important;
-  color: #1a69a4 !important;
+  box-shadow: 0px 0px 0px 1px #114d9b inset !important;
+  color: #16437d !important;
 }
 
 .ui.basic.primary.buttons .button:active,
 .ui.basic.primary.button:active {
-  box-shadow: 0px 0px 0px 1px #1a69a4 inset !important;
-  color: #1a69a4 !important;
+  box-shadow: 0px 0px 0px 1px #16437d inset !important;
+  color: #16437d !important;
 }
 
 .ui.buttons:not(.vertical) > .basic.primary.button:not(:first-child) {
@@ -4669,8 +4668,8 @@ button.toast-close-button {
 .ui.inverted.primary.buttons .button,
 .ui.inverted.primary.button {
   background-color: transparent;
-  box-shadow: 0px 0px 0px 2px #54C8FF inset !important;
-  color: #54C8FF;
+  box-shadow: 0px 0px 0px 2px #ffffff inset !important;
+  color: #ffffff;
 }
 
 .ui.inverted.primary.buttons .button:hover,
@@ -4687,22 +4686,22 @@ button.toast-close-button {
 
 .ui.inverted.primary.buttons .button:hover,
 .ui.inverted.primary.button:hover {
-  background-color: #3ac0ff;
+  background-color: #ffffe5;
 }
 
 .ui.inverted.primary.buttons .button:focus,
 .ui.inverted.primary.button:focus {
-  background-color: #2bbbff;
+  background-color: #ffffd6;
 }
 
 .ui.inverted.primary.buttons .active.button,
 .ui.inverted.primary.active.button {
-  background-color: #3ac0ff;
+  background-color: #ffffe5;
 }
 
 .ui.inverted.primary.buttons .button:active,
 .ui.inverted.primary.button:active {
-  background-color: #21b8ff;
+  background-color: #ffffcc;
 }
 
 /* Inverted Basic */
@@ -4718,29 +4717,29 @@ button.toast-close-button {
 .ui.inverted.primary.basic.buttons .button:hover,
 .ui.inverted.primary.buttons .basic.button:hover,
 .ui.inverted.primary.basic.button:hover {
-  box-shadow: 0px 0px 0px 2px #3ac0ff inset !important;
-  color: #54C8FF !important;
+  box-shadow: 0px 0px 0px 2px #ffffe5 inset !important;
+  color: #ffffff !important;
 }
 
 .ui.inverted.primary.basic.buttons .button:focus,
 .ui.inverted.primary.basic.buttons .button:focus,
 .ui.inverted.primary.basic.button:focus {
-  box-shadow: 0px 0px 0px 2px #2bbbff inset !important;
-  color: #54C8FF !important;
+  box-shadow: 0px 0px 0px 2px #ffffd6 inset !important;
+  color: #ffffff !important;
 }
 
 .ui.inverted.primary.basic.buttons .active.button,
 .ui.inverted.primary.buttons .basic.active.button,
 .ui.inverted.primary.basic.active.button {
-  box-shadow: 0px 0px 0px 2px #3ac0ff inset !important;
-  color: #54C8FF !important;
+  box-shadow: 0px 0px 0px 2px #ffffe5 inset !important;
+  color: #ffffff !important;
 }
 
 .ui.inverted.primary.basic.buttons .button:active,
 .ui.inverted.primary.buttons .basic.button:active,
 .ui.inverted.primary.basic.button:active {
-  box-shadow: 0px 0px 0px 2px #21b8ff inset !important;
-  color: #54C8FF !important;
+  box-shadow: 0px 0px 0px 2px #ffffcc inset !important;
+  color: #ffffff !important;
 }
 
 /*-------------------
@@ -4751,7 +4750,7 @@ button.toast-close-button {
 
 .ui.secondary.buttons .button,
 .ui.secondary.button {
-  background-color: #1B1C1D;
+  background-color: #AAE1F0;
   color: #FFFFFF;
   text-shadow: none;
   background-image: none;
@@ -4763,21 +4762,21 @@ button.toast-close-button {
 
 .ui.secondary.buttons .button:hover,
 .ui.secondary.button:hover {
-  background-color: #27292a;
+  background-color: #bdeaf6;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.secondary.buttons .button:focus,
 .ui.secondary.button:focus {
-  background-color: #2e3032;
+  background-color: #c9f0fa;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.secondary.buttons .button:active,
 .ui.secondary.button:active {
-  background-color: #343637;
+  background-color: #d5f0f8;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -4786,7 +4785,7 @@ button.toast-close-button {
 .ui.secondary.buttons .active.button:active,
 .ui.secondary.active.button,
 .ui.secondary.button .active.button:active {
-  background-color: #27292a;
+  background-color: #bcebf8;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -4795,35 +4794,35 @@ button.toast-close-button {
 
 .ui.basic.secondary.buttons .button,
 .ui.basic.secondary.button {
-  box-shadow: 0px 0px 0px 1px #1B1C1D inset !important;
-  color: #1B1C1D !important;
+  box-shadow: 0px 0px 0px 1px #AAE1F0 inset !important;
+  color: #AAE1F0 !important;
 }
 
 .ui.basic.secondary.buttons .button:hover,
 .ui.basic.secondary.button:hover {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #27292a inset !important;
-  color: #27292a !important;
+  box-shadow: 0px 0px 0px 1px #bdeaf6 inset !important;
+  color: #bdeaf6 !important;
 }
 
 .ui.basic.secondary.buttons .button:focus,
 .ui.basic.secondary.button:focus {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #2e3032 inset !important;
-  color: #27292a !important;
+  box-shadow: 0px 0px 0px 1px #c9f0fa inset !important;
+  color: #bdeaf6 !important;
 }
 
 .ui.basic.secondary.buttons .active.button,
 .ui.basic.secondary.active.button {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #27292a inset !important;
-  color: #343637 !important;
+  box-shadow: 0px 0px 0px 1px #bcebf8 inset !important;
+  color: #d5f0f8 !important;
 }
 
 .ui.basic.secondary.buttons .button:active,
 .ui.basic.secondary.button:active {
-  box-shadow: 0px 0px 0px 1px #343637 inset !important;
-  color: #343637 !important;
+  box-shadow: 0px 0px 0px 1px #d5f0f8 inset !important;
+  color: #d5f0f8 !important;
 }
 
 .ui.buttons:not(.vertical) > .basic.primary.button:not(:first-child) {
@@ -4835,8 +4834,8 @@ button.toast-close-button {
 .ui.inverted.secondary.buttons .button,
 .ui.inverted.secondary.button {
   background-color: transparent;
-  box-shadow: 0px 0px 0px 2px #545454 inset !important;
-  color: #545454;
+  box-shadow: 0px 0px 0px 2px #ffffff inset !important;
+  color: #ffffff;
 }
 
 .ui.inverted.secondary.buttons .button:hover,
@@ -4853,22 +4852,22 @@ button.toast-close-button {
 
 .ui.inverted.secondary.buttons .button:hover,
 .ui.inverted.secondary.button:hover {
-  background-color: #616161;
+  background-color: #ffffff;
 }
 
 .ui.inverted.secondary.buttons .button:focus,
 .ui.inverted.secondary.button:focus {
-  background-color: #686868;
+  background-color: #ffffff;
 }
 
 .ui.inverted.secondary.buttons .active.button,
 .ui.inverted.secondary.active.button {
-  background-color: #616161;
+  background-color: #ffffff;
 }
 
 .ui.inverted.secondary.buttons .button:active,
 .ui.inverted.secondary.button:active {
-  background-color: #6e6e6e;
+  background-color: #ffffff;
 }
 
 /* Inverted Basic */
@@ -4884,29 +4883,29 @@ button.toast-close-button {
 .ui.inverted.secondary.basic.buttons .button:hover,
 .ui.inverted.secondary.buttons .basic.button:hover,
 .ui.inverted.secondary.basic.button:hover {
-  box-shadow: 0px 0px 0px 2px #616161 inset !important;
-  color: #545454 !important;
+  box-shadow: 0px 0px 0px 2px #ffffff inset !important;
+  color: #ffffff !important;
 }
 
 .ui.inverted.secondary.basic.buttons .button:focus,
 .ui.inverted.secondary.basic.buttons .button:focus,
 .ui.inverted.secondary.basic.button:focus {
-  box-shadow: 0px 0px 0px 2px #686868 inset !important;
-  color: #545454 !important;
+  box-shadow: 0px 0px 0px 2px #ffffff inset !important;
+  color: #ffffff !important;
 }
 
 .ui.inverted.secondary.basic.buttons .active.button,
 .ui.inverted.secondary.buttons .basic.active.button,
 .ui.inverted.secondary.basic.active.button {
-  box-shadow: 0px 0px 0px 2px #616161 inset !important;
-  color: #545454 !important;
+  box-shadow: 0px 0px 0px 2px #ffffff inset !important;
+  color: #ffffff !important;
 }
 
 .ui.inverted.secondary.basic.buttons .button:active,
 .ui.inverted.secondary.buttons .basic.button:active,
 .ui.inverted.secondary.basic.button:active {
-  box-shadow: 0px 0px 0px 2px #6e6e6e inset !important;
-  color: #545454 !important;
+  box-shadow: 0px 0px 0px 2px #ffffff inset !important;
+  color: #ffffff !important;
 }
 
 /*---------------
@@ -13862,32 +13861,32 @@ i.icon.youtube.square {
 /* Primary */
 
 i.primary.icon {
-  color: #2185D0 !important;
+  color: #1E5AA8 !important;
 }
 
 i.inverted.primary.icon {
-  color: #54C8FF !important;
+  color: #ffffff !important;
 }
 
 i.inverted.bordered.primary.icon,
 i.inverted.circular.primary.icon {
-  background-color: #2185D0 !important;
+  background-color: #1E5AA8 !important;
   color: #FFFFFF !important;
 }
 
 /* Secondary */
 
 i.secondary.icon {
-  color: #1B1C1D !important;
+  color: #AAE1F0 !important;
 }
 
 i.inverted.secondary.icon {
-  color: #545454 !important;
+  color: #ffffff !important;
 }
 
 i.inverted.bordered.secondary.icon,
 i.inverted.circular.secondary.icon {
-  background-color: #1B1C1D !important;
+  background-color: #AAE1F0 !important;
   color: #FFFFFF !important;
 }
 /*!
@@ -25799,8 +25798,112 @@ Floated Menu / Item
 
 .ui.page.menu + * {
   display: block;
-  height: calc(100% - 3rem);
+  height: calc(100vh - 3rem);
   overflow-y: auto;
+}
+
+.ui.iconed.page.menu::before {
+  width: 3rem;
+  display: block;
+  content: '';
+  background-image: url('assets/images/challenge_logo.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@-webkit-keyframes splashing-menu {
+  0% {
+    height: 100%;
+  }
+
+  20% {
+    height: 100%;
+  }
+}
+
+@keyframes splashing-menu {
+  0% {
+    height: 100%;
+  }
+
+  20% {
+    height: 100%;
+  }
+}
+
+@-webkit-keyframes splashing-menu-before {
+  0% {
+    width: 100%;
+  }
+
+  40% {
+    width: 100%;
+  }
+}
+
+@keyframes splashing-menu-before {
+  0% {
+    width: 100%;
+  }
+
+  40% {
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes splashing-content {
+  0% {
+    width: 0;
+    height: 0;
+  }
+
+  60% {
+    width: 0;
+    height: 0;
+  }
+
+  61% {
+    opacity: 0;
+  }
+}
+
+@keyframes splashing-content {
+  0% {
+    width: 0;
+    height: 0;
+  }
+
+  60% {
+    width: 0;
+    height: 0;
+  }
+
+  61% {
+    opacity: 0;
+  }
+}
+
+.ui.iconed.splashing.page.menu {
+  -webkit-animation-name: splashing-menu;
+  animation-name: splashing-menu;
+  -webkit-animation-duration: 2.25s;
+  animation-duration: 2.25s;
+}
+
+.ui.iconed.splashing.page.menu::before {
+  -webkit-animation-name: splashing-menu-before;
+  animation-name: splashing-menu-before;
+  -webkit-animation-duration: 2.25s;
+  animation-duration: 2.25s;
+}
+
+.ui.iconed.splashing.page.menu > *,
+.ui.iconed.splashing.page.menu + * {
+  -webkit-animation-name: splashing-content;
+  animation-name: splashing-content;
+  -webkit-animation-duration: 2.25s;
+  animation-duration: 2.25s;
 }
 
 .ui.page.sub.menu {
@@ -27635,6 +27738,42 @@ Floated Menu / Item
 /*******************************
          Site Overrides
 *******************************/
+
+.ui.scrollable.table {
+  height: 100%;
+  display: block;
+  empty-cells: show;
+  border-spacing: 0;
+}
+
+.ui.scrollable.table thead {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 2.3rem;
+}
+
+.ui.scrollable.table tbody {
+  display: block;
+  position: relative;
+  width: 100%;
+  overflow-y: auto;
+  height: calc(100% - 2.3rem);
+}
+
+.ui.scrollable.table tr {
+  width: 100%;
+  display: -webkit-box;
+  display: flex;
+}
+
+.ui.scrollable.table td,
+.ui.scrollable.table th {
+  flex-basis: 100%;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  display: block;
+}
 /*!
  * # Semantic UI 2.4.2 - Ad
  * http://github.com/semantic-org/semantic-ui/
@@ -31550,7 +31689,7 @@ a.ui.card:hover,
 
 .ui.toggle.checkbox input:checked ~ .box:before,
 .ui.toggle.checkbox input:checked ~ label:before {
-  background-color: #2185D0 !important;
+  background-color: #1E5AA8 !important;
 }
 
 .ui.toggle.checkbox input:checked ~ .box:after,
@@ -31568,7 +31707,7 @@ a.ui.card:hover,
 
 .ui.toggle.checkbox input:focus:checked ~ .box:before,
 .ui.toggle.checkbox input:focus:checked ~ label:before {
-  background-color: #0d71bb !important;
+  background-color: #0d4690 !important;
 }
 
 /*******************************
