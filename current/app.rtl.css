@@ -4668,8 +4668,8 @@ button.toast-close-button {
 .ui.inverted.primary.buttons .button,
 .ui.inverted.primary.button {
   background-color: transparent;
-  box-shadow: 0px 0px 0px 2px #ffffff inset !important;
-  color: #ffffff;
+  box-shadow: 0px 0px 0px 2px #4d8cdf inset !important;
+  color: #4d8cdf;
 }
 
 .ui.inverted.primary.buttons .button:hover,
@@ -4686,22 +4686,22 @@ button.toast-close-button {
 
 .ui.inverted.primary.buttons .button:hover,
 .ui.inverted.primary.button:hover {
-  background-color: #ffffe5;
+  background-color: #2f7de4;
 }
 
 .ui.inverted.primary.buttons .button:focus,
 .ui.inverted.primary.button:focus {
-  background-color: #ffffd6;
+  background-color: #1974ea;
 }
 
 .ui.inverted.primary.buttons .active.button,
 .ui.inverted.primary.active.button {
-  background-color: #ffffe5;
+  background-color: #2b7de8;
 }
 
 .ui.inverted.primary.buttons .button:active,
 .ui.inverted.primary.button:active {
-  background-color: #ffffcc;
+  background-color: #2671d3;
 }
 
 /* Inverted Basic */
@@ -4717,29 +4717,29 @@ button.toast-close-button {
 .ui.inverted.primary.basic.buttons .button:hover,
 .ui.inverted.primary.buttons .basic.button:hover,
 .ui.inverted.primary.basic.button:hover {
-  box-shadow: 0px 0px 0px 2px #ffffe5 inset !important;
-  color: #ffffff !important;
+  box-shadow: 0px 0px 0px 2px #2f7de4 inset !important;
+  color: #4d8cdf !important;
 }
 
 .ui.inverted.primary.basic.buttons .button:focus,
 .ui.inverted.primary.basic.buttons .button:focus,
 .ui.inverted.primary.basic.button:focus {
-  box-shadow: 0px 0px 0px 2px #ffffd6 inset !important;
-  color: #ffffff !important;
+  box-shadow: 0px 0px 0px 2px #1974ea inset !important;
+  color: #4d8cdf !important;
 }
 
 .ui.inverted.primary.basic.buttons .active.button,
 .ui.inverted.primary.buttons .basic.active.button,
 .ui.inverted.primary.basic.active.button {
-  box-shadow: 0px 0px 0px 2px #ffffe5 inset !important;
-  color: #ffffff !important;
+  box-shadow: 0px 0px 0px 2px #2b7de8 inset !important;
+  color: #4d8cdf !important;
 }
 
 .ui.inverted.primary.basic.buttons .button:active,
 .ui.inverted.primary.buttons .basic.button:active,
 .ui.inverted.primary.basic.button:active {
-  box-shadow: 0px 0px 0px 2px #ffffcc inset !important;
-  color: #ffffff !important;
+  box-shadow: 0px 0px 0px 2px #2671d3 inset !important;
+  color: #4d8cdf !important;
 }
 
 /*-------------------
@@ -13865,7 +13865,7 @@ i.primary.icon {
 }
 
 i.inverted.primary.icon {
-  color: #ffffff !important;
+  color: #4d8cdf !important;
 }
 
 i.inverted.bordered.primary.icon,
@@ -14777,6 +14777,24 @@ img.ui.bordered.image {
 .ui.action.input .ui.dropdown:last-child {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  background: rgba(0, 0, 0, 0.05);
+  height: 1.5rem;
+  border-radius: 0.75rem;
+  outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15), 0px 0px 0px 1px rgba(34, 36, 38, 0.15) inset;
+  background: #FFFFFF -webkit-gradient(linear, right top, right bottom, from(transparent), to(rgba(0, 0, 0, 0.05))) !important;
+  background: #FFFFFF linear-gradient(transparent, rgba(0, 0, 0, 0.05)) !important;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
 }
 /*!
  * # Semantic UI 2.4.2 - Label

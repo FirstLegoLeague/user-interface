@@ -6,8 +6,8 @@
 @primaryColor: #1E5AA8;
 @secondaryColor: #AAE1F0;
 
-@lightPrimaryColor: lighten(@primaryColor, 75);
-@lightSecondaryColor: lighten(@secondaryColor, 75);
+@lightPrimaryColor: lighten(@primaryColor, 20);
+@lightSecondaryColor: lighten(@secondaryColor, 20);
 
 @primaryColorHover        : saturate(darken(@primaryColor, 5), 10, relative);
 @secondaryColorHover      : saturate(lighten(@secondaryColor, 5), 10, relative);
