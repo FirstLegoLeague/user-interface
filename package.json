@@ -1,7 +1,7 @@
 {
   "name": "@first-lego-league/user-interface",
   "description": "First Lego Legague styles standard and components",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/zurb/foundation-zurb-template.git"
