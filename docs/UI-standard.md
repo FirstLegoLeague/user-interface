@@ -32,6 +32,9 @@ Please follow these standards when using this package, to use unified style for 
 - Use `ui basic small modal`s.
 - Buttons in modals should be `inverted`.
 - In modals meant for deleting items, use a `ui icon header` with `trash icon`.
+- Each modal should have an easy way to close it:
+  - modals meant for actions should have a `cancel` button at their `actions` section.
+  - modals meant for information shuold have a `close` button at their top menu.
 
 ## States
 - Use `error segment`s for errored data/forms.
