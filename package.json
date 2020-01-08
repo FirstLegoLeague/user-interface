@@ -7,7 +7,8 @@
   "author": "Idan Stark <idanstark42@gmail.com>",
   "license": "GPL-3.0",
   "files": [
-    "current/**"
+    "current/**",
+    "src/**"
   ],
   "engines": {
     "node": ">=8.x"
