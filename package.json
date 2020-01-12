@@ -2,27 +2,22 @@
   "name": "@first-lego-league/user-interface",
   "description": "First Lego Legague styles standard and components",
   "version": "2.1.2",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/zurb/foundation-zurb-template.git"
-  },
+  "main": "current/app.js",
+  "repository": "https://github.com/FirstLegoLeague/user-interface.git",
+  "author": "Idan Stark <idanstark42@gmail.com>",
   "license": "GPL-3.0",
-  "main": "gulpfile.babel.js",
   "files": [
-    "current/**"
+    "current/**",
+    "src/**"
   ],
+  "engines": {
+    "node": ">=8.x"
+  },
   "scripts": {
     "start": "gulp",
     "build": "gulp build --production",
     "prepack": "yarn build"
   },
-  "browsersList": [
-    "last 2 versions",
-    "> 1%",
-    "opera 12.1",
-    "bb 10",
-    "android 4"
-  ],
   "devDependencies": {
     "better-console": "^1.0.1",
     "del": "^5.0.0",
