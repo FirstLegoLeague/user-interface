@@ -4,7 +4,7 @@
 
 .fll {
 	&.image-background, &.tile-background {
-		background-image: url('assets/images/first_rise_horizontal.png');
+		background-image: url('assets/images/replay_horizontal.jpeg');
 		    background-position: bottom center;
 			background-size: 100%;
 			background-repeat: no-repeat;
