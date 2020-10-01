@@ -4,11 +4,11 @@
 
 .fll {
 	&.image-background, &.tile-background {
-		background-image: url('assets/images/replay_horizontal.jpeg');
+		background-image: url('assets/images/replay_horizontal.png');
 		    background-position: bottom center;
 			background-size: 100%;
 			background-repeat: no-repeat;
-			background-color: #a0d9db;
+			background-color: #588c5c;
 	}
 }
 
